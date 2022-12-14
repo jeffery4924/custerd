@@ -1,12 +1,9 @@
-﻿Console.WriteLine(1.tostr());
+﻿using cust;
 
-
-
-
-public static class StringExtensions
+class Program
 {
-    public static string tostr(this int s)
+    static void Main(string[] args)
     {
-        return "\"" + (s.ToString()) + "\"";
+        
     }
 }
